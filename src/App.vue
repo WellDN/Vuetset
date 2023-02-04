@@ -1,5 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import count  from './components/count.vue'
+import reactiveproxy from './components/reactiveproxy.vue'
+import methods from './components/methods.vue';
+import updatetiming from './components/updatetiming.vue';
+import deepreactivity from './components/deepreactivity.vue';
+import computed from './components/computed.vue';
 </script>
 
 <template>
@@ -10,6 +16,11 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <count />
+    <reactiveproxy />
+    <methods />
+    <updatetiming />
+    <deepreactivity />
+    <computed />
   </main>
 </template>
